@@ -52,5 +52,6 @@ def get_average_age_for_season(data, season)
     total_people += 1
     total_ages += person["age"].to_i
   end
+  binding.pry
   (total_ages/total_people).floor
 end  
