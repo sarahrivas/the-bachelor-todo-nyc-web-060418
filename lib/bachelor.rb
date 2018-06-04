@@ -1,3 +1,4 @@
+require 'pry'
 def get_first_name_of_season_winner(data, season)
   winner = nil
   data[season].each do |person|
@@ -50,7 +51,7 @@ def get_average_age_for_season(data, season)
   total_people = 0
   data[season].each do |person|
     total_people += 1
-    total_ages += person["age"].to_i
+    total_ages += person["age"].to_f
   end
-  total_ages/total_people
+  (total_ages/total_people).round
 end  
