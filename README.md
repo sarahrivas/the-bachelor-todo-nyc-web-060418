@@ -1,4 +1,4 @@
-# Advanced Nested Hash Manipulation II: The Bachelor
+i# Advanced Nested Hash Manipulation II: The Bachelor
 
 ![bachelor holding a rose](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/the-bachelor/The-Bachelor.jpg)
 
